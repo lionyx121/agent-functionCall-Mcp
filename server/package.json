@@ -1,0 +1,17 @@
+{
+    "name": "classagentserver",
+    "version": "1.0.0",
+    "main": "server.js",
+    "scripts": {
+        "server": "node server.js",
+        "dev": "nodemon server.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "description": "",
+    "dependencies": {
+        "dotenv": "^17.3.1",
+        "nodemon": "^3.1.14"
+    }
+}
