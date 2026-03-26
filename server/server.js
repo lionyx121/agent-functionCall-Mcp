@@ -4,6 +4,9 @@ const app = express();
 
 const chat = require('./routes/chat')
 
+// 中间件
+app.use(express.json());
+
 app.use('/api/chat', chat)
 
 app.get('/', (req, res) => {
